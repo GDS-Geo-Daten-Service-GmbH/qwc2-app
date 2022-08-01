@@ -290,7 +290,7 @@ function nominatimSearchResults(obj, requestId) {
 }
 
 function nominatimSearch(text, requestId, searchOptions, dispatch, cfg = {}) {
-    axios.get("//nominatim.openstreetmap.org/search", {params: {
+    axios.get("//tileserver.gis24.eu/nominatim/search", {params: {
         'q': text,
         'addressdetails': 1,
         'polygon_geojson': 1,
