@@ -176,7 +176,11 @@
         "mapClickAction": "identify"
       },
       {
-        "name": "MapCopyright"
+        "name": "MapCopyright",
+        "cfg": {
+          "showThemeCopyrightOnly": false,
+          "prefixCopyrightsWithLayerName": false
+        }
       },
       {
         "name": "LayerTree",
@@ -410,7 +414,8 @@
       {
         "name": "MapCopyright",
         "cfg": {
-          "showThemeCopyrightOnly": true
+          "showThemeCopyrightOnly": false,
+          "prefixCopyrightsWithLayerName": false
         }
       },
       {
